@@ -104,7 +104,7 @@ export default {
       this.$message.success('删除成功！')
       this.getGoodsList()
     },
-    goAddpage() {
+    goAddpage () {
       this.$router.push('/goods/add')
     }
   }
